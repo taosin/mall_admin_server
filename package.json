@@ -1,0 +1,26 @@
+{
+  "name": "mall_admin_server",
+  "version": "1.0.0",
+  "description": "mall server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taosin/mall_admin_server.git"
+  },
+  "keywords": [
+    "mall-server",
+    "node.js"
+  ],
+  "author": "Nix_____",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taosin/mall_admin_server/issues"
+  },
+  "homepage": "https://github.com/taosin/mall_admin_server#readme",
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
