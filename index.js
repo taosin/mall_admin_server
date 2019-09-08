@@ -1,5 +1,6 @@
 const Koa = require('koa');
 const app = new Koa();
+const config = require('./config')
 
 // logger
 
@@ -24,4 +25,5 @@ app.use(async ctx => {
   ctx.body = 'Hello World';
 });
 
-app.listen(3000);
+app.listen(config.port);
+console.log('该服务已启动');
